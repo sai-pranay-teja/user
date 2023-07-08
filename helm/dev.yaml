@@ -1,1 +1,3 @@
 component: user
+# params: "DOCUMENTDB:dev.user.mongo,REDIS_HOST:dev.elasticache.endpoint,MONGO_URL:dev.docdb.user.url"
+params: "DOCUMENTDB:dev.user.mongo,REDIS_HOST:dev.user.redis_host,MONGO_URL:dev.user.mongo_url"
