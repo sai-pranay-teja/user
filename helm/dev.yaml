@@ -3,3 +3,6 @@ params: "DOCUMENTDB:dev.user.mongo,REDIS_HOST:dev.elasticache.endpoint,MONGO_URL
 # params: "DOCUMENTDB:dev.user.mongo,REDIS_HOST:dev.user.redis_host,MONGO_URL:dev.user.mongo_url"
 
 env: dev
+schema:
+  create: true
+  type: mongo
